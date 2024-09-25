@@ -12,7 +12,7 @@
 }
 .service-title h1 {
   padding: 0px 30px;
-  font-size: 80px;
+  font-size: 70px;
   font-weight: 600;
 }
 
@@ -21,7 +21,7 @@
   bottom: 0;
   right: 0;
   z-index: -1;
-  width: 250px;
+  width: 220px;
 }
 
 .services-container {

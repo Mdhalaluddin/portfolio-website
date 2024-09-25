@@ -30,9 +30,22 @@ function Contact() {
             </div>
           </div>
         </div>
-        <div className="contact-right">
-          <h1>Your Name</h1>
-        </div>
+        <form className="contact-right">
+          <label htmlFor="">Your Name</label>
+          <input type="text" placeholder="Enter your name" name="name" />
+          <label htmlFor="">Your Email</label>
+          <input type="text" placeholder="Enter your email" name="email" />
+          <label htmlFor="">Write your message here</label>
+          <textarea
+            name="message"
+            rows="8"
+            placeholder="Enter your massage"
+            id=""
+          ></textarea>
+          <button type="submit" className="contact-submit">
+            Submit
+          </button>
+        </form>
       </div>
     </div>
   );
