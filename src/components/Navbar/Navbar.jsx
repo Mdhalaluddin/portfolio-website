@@ -2,11 +2,7 @@ import "./Navbar.css";
 function Navbar() {
   return (
     <div className="navbar">
-      <img
-        className="w-10 h-10"
-        src="https://i.ibb.co.com/cytQ1RZ/Clean-Elegant-Typography-Brand-Logo.jpg"
-        alt=""
-      />
+      <img src="/src/assets/Name_Logo.png" alt="" />
       <ul className="nav-menu">
         <li>Home</li>
         <li>About Me</li>
