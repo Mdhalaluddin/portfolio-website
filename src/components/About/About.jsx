@@ -1,7 +1,7 @@
 import "./About.css";
 function About() {
   return (
-    <div className="about">
+    <div id="about" className="about">
       <div className="about-title">
         <h1>About me</h1>
         <img src="/src/assets/download.svg" alt="" />
@@ -29,13 +29,13 @@ function About() {
               <p>HTML & CSS</p> <hr style={{ width: "70%" }} />
             </div>
             <div className="about-skill">
-              <p>JavaScript</p> <hr style={{ width: "65%" }} />
+              <p>JavaScript</p> <hr style={{ width: "60%" }} />
             </div>
             <div className="about-skill">
-              <p>TypeScript</p> <hr style={{ width: "55%" }} />
+              <p>TypeScript</p> <hr style={{ width: "53%" }} />
             </div>
             <div className="about-skill">
-              <p>React Js</p> <hr style={{ width: "60%" }} />
+              <p>React Js</p> <hr style={{ width: "55%" }} />
             </div>
             <div className="about-skill">
               <p>Next Js</p> <hr style={{ width: "45%" }} />

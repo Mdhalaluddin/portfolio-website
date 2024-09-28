@@ -5,8 +5,9 @@
   gap: 35px;
 }
 .hero img {
-  margin-top: 30px;
-  height: 250px;
+  margin-top: 10px;
+  height: 280px;
+  border-radius: 50%;
 }
 .hero h1 {
   text-align: center;
@@ -55,4 +56,37 @@
 }
 .hero-resume:hover {
   border-color: #b415ff;
+}
+
+/* -------------mobile responsive---------- */
+
+@media (max-width: 768px) {
+  .hero img {
+    margin-top: 90px;
+    width: 260px;
+  }
+  .hero h1 {
+    width: 90%;
+    font-size: 45px;
+  }
+  .hero p {
+    width: 75%;
+    font-size: 20px;
+    line-height: 32px;
+    margin: 10px 0px;
+  }
+  .hero-action {
+    gap: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 50px;
+  }
+  .hero-connect {
+    padding: 18px 40px;
+    border-radius: 40px;
+  }
+  .hero-resume {
+    padding: 14px 40px;
+    border-radius: 40px;
+  }
 }

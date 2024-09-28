@@ -1,8 +1,37 @@
 import ".//Contact.css";
+import Swal from "sweetalert2";
 
 function Contact() {
+  const onSubmit = async (event) => {
+    event.preventDefault();
+    const formData = new FormData(event.target);
+
+    formData.append("access_key", "32462b91-6e45-4042-bb64-f9d2a4d588e7");
+
+    const response = await fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      body: formData,
+    });
+
+    const data = await response.json();
+
+    if (data.success) {
+      Swal.fire({
+        position: "top-end",
+        icon: "success",
+        title: "Your submitted successfully",
+        showConfirmButton: false,
+        timer: 1500,
+      });
+      event.target.reset();
+    } else {
+      console.log("Error", data);
+      data.Swal.fire("Your submitted is  Error!");
+    }
+  };
+
   return (
-    <div className="contact">
+    <div id="contact" className="contact">
       <div className="contact-title">
         <h1>Get in touch</h1>
         <img src="/src/assets/download.svg" alt="" />
@@ -18,7 +47,7 @@ function Contact() {
           <div className="contact-details">
             <div className="contact-detail">
               <i className="fa-solid fa-envelope"></i>
-              <h2>halaldev.2000@gmail.com</h2>
+              <h2>halaluddin2000.dev@gmail.com</h2>
             </div>
             <div className="contact-detail">
               <i className="fa-solid fa-phone"></i>
@@ -30,11 +59,11 @@ function Contact() {
             </div>
           </div>
         </div>
-        <form className="contact-right">
+        <form onSubmit={onSubmit} className="contact-right">
           <label htmlFor="">Your Name</label>
           <input type="text" placeholder="Enter your name" name="name" />
           <label htmlFor="">Your Email</label>
-          <input type="text" placeholder="Enter your email" name="email" />
+          <input type="email" placeholder="Enter your email" name="email" />
           <label htmlFor="">Write your message here</label>
           <textarea
             name="message"

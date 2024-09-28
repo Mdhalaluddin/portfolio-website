@@ -2,7 +2,7 @@ import "./Services.css";
 
 function Services() {
   return (
-    <div className="service">
+    <div id="services" className="service">
       <div className="service-title">
         <h1>Services</h1>
         <img src="/src/assets/download.svg" alt="" />
@@ -16,7 +16,7 @@ function Services() {
               Empowering businesses and individuals through the art of web
               development.
             </p>
-            <a href="#" className="text-yellow-500 text-xl">
+            <a href="#" className="read-more">
               Read more...
             </a>
           </div>
@@ -27,7 +27,7 @@ function Services() {
               Creating intuitive and engaging user interfaces for modern web
               platforms.
             </p>
-            <a href="#" className="text-yellow-500 text-xl">
+            <a href="#" className="read-more">
               Read more...
             </a>
           </div>
@@ -38,7 +38,7 @@ function Services() {
               Crafting intuitive and visually captivating user experiences
               through UI/UX design.
             </p>
-            <a href="#" className="text-yellow-500 text-xl">
+            <a href="#" className="read-more">
               Read more...
             </a>
           </div>
@@ -47,9 +47,9 @@ function Services() {
             <h2>App Development</h2>
             <p>
               Transforming concepts into powerful, user-friendly applications
-              that make a difference.
+              that make..
             </p>
-            <a href="#" className="text-yellow-500 text-xl">
+            <a href="#" className="read-more">
               Read more...
             </a>
           </div>
@@ -60,7 +60,7 @@ function Services() {
               Empowering your brand’s presence with creative and data-driven
               social content.
             </p>
-            <a href="#" className="text-yellow-500 text-xl">
+            <a href="#" className="read-more">
               Read more...
             </a>
           </div>
@@ -69,9 +69,9 @@ function Services() {
             <h2>Content writing</h2>
             <p>
               My writing transforms ideas into clear, persuasive narratives that
-              resonate with readers, build trust, and drive meaningful results.
+              resonate
             </p>
-            <a href="#" className="text-yellow-500 text-xl">
+            <a href="#" className="read-more">
               Read more...
             </a>
           </div>
