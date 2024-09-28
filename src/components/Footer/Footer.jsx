@@ -5,7 +5,7 @@ function Footer() {
     <div className="footer">
       <div className="footer-top">
         <div className="footer-top-left">
-          <img src="/src/assets/Name_Logo.png" alt="" />
+          <img src="https://i.ibb.co.com/VTvrq08/Name-Logo.png" alt="" />
           <p>I am a MERN stack developer from, Bangladesh</p>
         </div>
         <div className="footer-top-right">

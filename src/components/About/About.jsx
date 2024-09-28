@@ -8,7 +8,11 @@ function About() {
       </div>
       <div className="about-section">
         <div className="about-left">
-          <img className="w-full" src="/src/assets/about picture.png" alt="" />
+          <img
+            className="w-full"
+            src="https://i.ibb.co.com/g3s5LYt/about-picture.png"
+            alt=""
+          />
         </div>
         <div className="about-right">
           <div className="about-para">

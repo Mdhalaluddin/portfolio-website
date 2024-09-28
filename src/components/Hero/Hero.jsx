@@ -4,7 +4,10 @@ import "./Hero.css";
 function Hero() {
   return (
     <div className="hero">
-      <img src="/src/assets/Profile Picture.png" alt="halal profile photo" />
+      <img
+        src="https://i.ibb.co.com/WzjxmqJ/Profile-Picture.png"
+        alt="halal profile photo"
+      />
       <h1>
         <span>I'm Halal Uddin,</span> MERN stack Developer based in Bangladesh
       </h1>

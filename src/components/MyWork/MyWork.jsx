@@ -10,14 +10,18 @@ function MyWork() {
       <div className="myWork-Project">
         <img
           className="w-full"
-          src="/src/assets/Screenshot 2024-09-17 170947.jpg"
+          src="https://i.ibb.co.com/XS78D9h/Screenshot-2024-09-17-170947.jpg"
           alt=""
         />
-        <img className="w-full" src="/src/assets/bistro boss.jpg" alt="" />
-        <img src="/src/assets/donnate.png" alt="" />
-        <img src="/src/assets/dragon news.png" alt="" />
-        <img src="/src/assets/phone hanter.jpg" alt="" />
-        <img src="/src/assets/summer.png" alt="" />
+        <img
+          className="w-full"
+          src="https://i.ibb.co.com/CKvkxTk/bistro-boss.jpg"
+          alt=""
+        />
+        <img src="https://i.ibb.co.com/GQghqnK/donnate.png" alt="" />
+        <img src="https://i.ibb.co.com/yd3pwp6/dragon-news.png" alt="" />
+        <img src="https://i.ibb.co.com/3kDCmCx/phone-hanter.jpg" alt="" />
+        <img src="https://i.ibb.co.com/zxhR4xw/summer.png" alt="" />
       </div>
       <div className="myWork-sowMore">
         <h2>See more</h2>

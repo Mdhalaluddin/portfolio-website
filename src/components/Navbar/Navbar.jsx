@@ -15,7 +15,7 @@ function Navbar() {
 
   return (
     <div className="navbar">
-      <img src="/src/assets/Name_Logo.png" alt="" />
+      <img src="https://i.ibb.co.com/VTvrq08/Name-Logo.png" alt="" />
       <i
         id="open-menu"
         onClick={openMenu}
