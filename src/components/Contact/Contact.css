@@ -118,22 +118,24 @@
   }
   .contact-title h1 {
     padding: 0;
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 600;
   }
   .contact-title img {
-    width: 170px;
-    margin-right: -18px;
+    width: 150px;
+    margin-right: -16px;
   }
   .contact-section {
+    display: flex;
+    margin: auto;
     flex-direction: column;
   }
 
   .contact-left h1 {
-    font-size: 54px;
+    font-size: 40px;
   }
   .contact-left p {
-    font-size: 18px;
+    font-size: 20px;
   }
   .contact-detail {
     gap: 20px;

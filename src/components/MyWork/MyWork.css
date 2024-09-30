@@ -74,14 +74,16 @@
   }
   .myWork-title h1 {
     padding: 0;
-    font-size: 45px;
+    font-size: 35px;
     font-weight: 600;
   }
   .myWork-title img {
-    width: 200px;
-    margin-right: -20px;
+    width: 160px;
+    margin-right: -18px;
   }
   .myWork-Project {
+    display: grid;
+    margin: auto;
     grid-template-columns: 1fr 1fr;
     gap: 30px;
   }
@@ -94,5 +96,31 @@
     font-size: 20px;
     margin: 50px auto;
     cursor: pointer;
+  }
+}
+
+@media (max-width: 600px) {
+  .myWork {
+    display: flex;
+    margin: auto;
+    gap: 50px;
+    margin: 50px 70px;
+    align-items: center;
+  }
+  .myWork-title h1 {
+    padding: 0;
+    font-size: 35px;
+    font-weight: 600;
+    margin-top: 60px;
+  }
+  .myWork-title img {
+    width: 160px;
+    margin-right: -18px;
+  }
+  .myWork-Project {
+    display: grid;
+    margin: auto;
+    grid-template-columns: 1fr;
+    gap: 40px;
   }
 }

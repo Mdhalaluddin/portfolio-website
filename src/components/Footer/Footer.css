@@ -77,23 +77,26 @@
   }
   .footer-bottom {
     display: flex;
+    margin: auto;
     flex-direction: column-reverse;
     margin-bottom: 50px;
   }
   .footer-top-right {
     gap: 8px;
   }
+  .footer-email-input input {
+    font-size: 14px;
+  }
   .footer-email-input {
-    font-size: 16px;
-    gap: 10px;
-    padding: 12px 18px;
+    font-size: 12px;
+    gap: 8px;
+    padding: 10px 12px;
     border-radius: 30px;
     background: #32323b;
-    padding-right: 10px;
   }
   .footer-subscribe {
-    font-size: 14px;
-    padding: 14px 22px;
-    border-radius: 40px;
+    font-size: 12px;
+    padding: 10px 14px;
+    border-radius: 30px;
   }
 }
