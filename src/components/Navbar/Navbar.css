@@ -58,7 +58,7 @@
 
   #open-menu {
     display: block;
-    position: fixed;
+    position: relative;
     right: 30px;
     height: 20px;
     font-size: 30px;
@@ -94,7 +94,7 @@
 
 @media (max-width: 768px) {
   .navbar {
-    margin: 20px 50px;
+    margin: 20px 70px;
   }
   .nav-connect {
     display: none;
