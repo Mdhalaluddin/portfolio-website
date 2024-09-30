@@ -18,9 +18,9 @@ function Footer() {
       </div>
       <hr />
       <div className="footer-bottom">
-        <p className="footer-bottom-left">
-          © 2024 Halal Uddin. All rights reserved.
-        </p>
+        <div className="footer-bottom-left">
+          <p>© 2024 Halal Uddin. All rights reserved.</p>
+        </div>
         <div className="footer-bottom-right">
           <p>Term of Services</p>
           <p>Privacy Policy</p>

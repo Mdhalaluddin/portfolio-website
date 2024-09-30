@@ -99,4 +99,21 @@
     padding: 10px 14px;
     border-radius: 30px;
   }
+  .footer-bottom-right {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 30px;
+  }
+  .footer-bottom-right p {
+    font-size: 15px;
+  }
+  .footer-bottom-left p {
+    font-size: 18px;
+  }
+  .footer-top-left img {
+    height: 60px;
+  }
+  .footer hr {
+    width: 100%;
+  }
 }

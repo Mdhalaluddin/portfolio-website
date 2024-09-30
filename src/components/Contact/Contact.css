@@ -118,7 +118,7 @@
   }
   .contact-title h1 {
     padding: 0;
-    font-size: 40px;
+    font-size: 44px;
     font-weight: 600;
   }
   .contact-title img {
@@ -135,21 +135,21 @@
     font-size: 40px;
   }
   .contact-left p {
-    font-size: 20px;
+    font-size: 16px;
   }
   .contact-detail {
-    gap: 20px;
+    gap: 18px;
   }
   .contact-right label {
     font-size: 20px;
   }
   .contact-right input {
-    width: 100%;
-    font-size: 20px;
+    width: 93%;
+    font-size: 18px;
   }
   .contact-right textarea {
-    width: 95%;
-    font-size: 28px;
+    width: 93%;
+    font-size: 24px;
   }
   .contact-submit {
     font-size: 20px;
