@@ -5,7 +5,7 @@ function Hero() {
   return (
     <div className="hero">
       <img
-        src="https://i.ibb.co.com/WzjxmqJ/Profile-Picture.png"
+        src="https://i.ibb.co.com/v4JdfNC/Profile-Picture2.png"
         alt="halal profile photo"
       />
       <h1>
