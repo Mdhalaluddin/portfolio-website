@@ -75,6 +75,8 @@
 /* -------------- mobile responsive------- */
 @media (max-width: 768px) {
   .service {
+    display: flex;
+    margin: auto;
     align-items: center;
     gap: 50px;
     margin: 50px 70px;

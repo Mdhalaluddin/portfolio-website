@@ -81,6 +81,8 @@
 
 @media (max-width: 768px) {
   .about {
+    display: flex;
+    margin: auto;
     gap: 80px;
     margin: 50px 70px;
     align-items: center;

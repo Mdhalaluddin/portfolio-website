@@ -94,6 +94,8 @@
 
 @media (max-width: 768px) {
   .navbar {
+    display: flex;
+    margin: auto;
     margin: 20px 70px;
   }
   .nav-connect {
