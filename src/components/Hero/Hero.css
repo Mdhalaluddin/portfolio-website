@@ -1,5 +1,6 @@
 .hero {
   display: flex;
+  margin: auto;
   align-items: center;
   flex-direction: column;
   gap: 35px;
@@ -31,6 +32,7 @@
 
 .hero-action {
   display: flex;
+
   align-items: center;
   gap: 25px;
   font-size: 24px;

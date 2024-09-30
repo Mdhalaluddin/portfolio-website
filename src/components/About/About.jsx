@@ -4,7 +4,7 @@ function About() {
     <div id="about" className="about">
       <div className="about-title">
         <h1>About me</h1>
-        <img src="/src/assets/download.svg" alt="" />
+        <img src="https://i.ibb.co.com/RcrPLDq/logo-img.png" alt="" />
       </div>
       <div className="about-section">
         <div className="about-left">

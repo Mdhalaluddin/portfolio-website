@@ -5,7 +5,7 @@ function MyWork() {
     <div id="work" className="myWork">
       <div className="myWork-title">
         <h1>My latest Work</h1>
-        <img src="/src/assets/download.svg" alt="" />
+        <img src="https://i.ibb.co.com/RcrPLDq/logo-img.png" alt="" />
       </div>
       <div className="myWork-Project">
         <img

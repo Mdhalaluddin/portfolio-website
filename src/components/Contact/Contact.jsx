@@ -34,7 +34,7 @@ function Contact() {
     <div id="contact" className="contact">
       <div className="contact-title">
         <h1>Get in touch</h1>
-        <img src="/src/assets/download.svg" alt="" />
+        <img src="https://i.ibb.co.com/RcrPLDq/logo-img.png" alt="" />
       </div>
       <div className="contact-section">
         <div className="contact-left">

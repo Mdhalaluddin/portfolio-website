@@ -15,7 +15,11 @@ function Navbar() {
 
   return (
     <div className="navbar">
-      <img src="https://i.ibb.co.com/VTvrq08/Name-Logo.png" alt="" />
+      <img
+        className="h-12"
+        src="https://i.ibb.co.com/VTvrq08/Name-Logo.png"
+        alt=""
+      />
       <i
         id="open-menu"
         onClick={openMenu}

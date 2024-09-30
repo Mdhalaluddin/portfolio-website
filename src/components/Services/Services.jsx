@@ -5,7 +5,7 @@ function Services() {
     <div id="services" className="service">
       <div className="service-title">
         <h1>Services</h1>
-        <img src="/src/assets/download.svg" alt="" />
+        <img src="https://i.ibb.co.com/RcrPLDq/logo-img.png" alt="" />
       </div>
       <div>
         <div className="services-container">
